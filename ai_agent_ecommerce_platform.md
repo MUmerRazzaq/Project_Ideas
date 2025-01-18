@@ -62,7 +62,7 @@ The proposed platform is an AI-driven system designed to enhance e-commerce oper
 - **Workflow:**
   1. AI analyzes historical and real-time sales data.
   2. Insights and predictions are generated using tools like Google Trends and advanced analytics models.
-  3. Suggestions for new strategies or product changes are provided.
+  3. Suggestions for new strategies or product changes are provided, including responses to weather changes.
 
 ### 3. Special Event and Seasonal Adjustments
 
@@ -76,10 +76,20 @@ The proposed platform is an AI-driven system designed to enhance e-commerce oper
 ### 4. Unified Customer Management
 
 - **Description:**
-  All customer interactions, including complaints, returns, and inquiries, can be managed through a unified platform integrated with WhatsApp or CLI.
+  All customer interactions, including complaints, returns, and inquiries, can be managed through a unified platform integrated with WhatsApp or CLI. The AI, powered by an LLM, will respond to customer queries using knowledge provided by the RAG system. Only important or unresolved queries will be notified to a support agent.
 - **Workflow:**
   1. System centralizes all customer communications.
-  2. Admins can track, manage, and respond to queries from a single interface.
+  2. AI responds to queries using the RAG system.
+  3. Critical or unresolved queries are flagged and forwarded to a support agent.
+
+### 5. Data Access via CLI
+
+- **Description:**
+  Organizations can use a Command-Line Interface (CLI) to access and manage data such as parcel details, delivery statuses, and other operational information. The backend API will fetch and display the required data in real-time for streamlined decision-making.
+- **Workflow:**
+  1. Admin inputs a query or command into the CLI.
+  2. The backend API retrieves relevant data from the database.
+  3. Data is displayed in a structured format for easy interpretation.
 
 ---
 
@@ -87,9 +97,11 @@ The proposed platform is an AI-driven system designed to enhance e-commerce oper
 
 - **Validation of AI Processes:** How can the system’s validation for returns and complaints be made foolproof to avoid fraud?
 - **Scalability:** Can the system handle high volumes of customer interactions during peak times?
-- **Integration:** What other tools or platforms can enhance the system’s efficiency (e.g., payment gateways, CRM)?
+- **Data Management:** How will the database be structured to manage tasks efficiently and ensure that previous customer interactions with the support system are stored and accessible?
+- **Tool Communication:** How will all tools and components communicate seamlessly to provide a unified experience?
 - **Feedback Mechanism:** How will the system ensure continuous improvement based on customer and admin feedback?
 
 ---
 
 This document is a preliminary conceptualization. All functionalities and workflows are subject to further discussion, testing, and refinement. Suggestions and improvements are highly encouraged to make the system more efficient and practical.
+
