@@ -67,7 +67,7 @@ The proposed platform is an AI-driven system designed to enhance e-commerce oper
 ### 3. Special Event and Seasonal Adjustments
 
 - **Description:**
-  The system uses external data like weather and events to predict customer behavior and adjust promotional efforts.
+  The system uses external data like weather changes and events to predict customer behavior and adjust promotional efforts.
 - **Workflow:**
   1. System monitors external data sources.
   2. AI correlates this data with customer behavior trends.
