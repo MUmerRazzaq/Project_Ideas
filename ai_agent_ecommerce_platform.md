@@ -76,20 +76,20 @@ The proposed platform is an AI-driven system designed to enhance e-commerce oper
 ### 4. Unified Customer Management
 
 - **Description:**
-  All customer interactions, including complaints, returns, and inquiries, can be managed through a unified platform integrated with WhatsApp or CLI. The AI, powered by an LLM, will respond to customer queries using knowledge provided by the RAG system. Only important or unresolved queries will be notified to a support agent.
+  All customer interactions, including complaints, returns, and inquiries, can be managed through a unified platform integrated with WhatsApp or Natural Language UI. The AI, powered by an LLM, will respond to customer queries using knowledge provided by the RAG system. Only important or unresolved queries will be notified to a support agent.
 - **Workflow:**
   1. System centralizes all customer communications.
   2. AI responds to queries using the RAG system.
   3. Critical or unresolved queries are flagged and forwarded to a support agent.
 
-### 5. Data Access via CLI
+### 5. Data Access via Natural Language UI
 
 - **Description:**
-  Organizations can use a Command-Line Interface (CLI) to access and manage data such as parcel details, delivery statuses, and other operational information. The backend API will fetch and display the required data in real-time for streamlined decision-making.
+  Organizations can use a Natural Language UI to access and manage data such as parcel details, delivery statuses, and other operational information. The backend API will fetch and display the required data in real-time for streamlined decision-making.
 - **Workflow:**
-  1. Admin inputs a query or command into the CLI.
+  1. Admin queries the system using natural language commands.
   2. The backend API retrieves relevant data from the database.
-  3. Data is displayed in a structured format for easy interpretation.
+  3. Data is displayed in an intuitive format for easy interpretation.
 
 ---
 
